@@ -48,7 +48,7 @@ while True:
 
     submissions = []
 
-    # the checked list will include everything collected and be used to re-doing stuff
+    # the checked list will include everything collected and be used to re-examining stuff
 
     checked = []
 
