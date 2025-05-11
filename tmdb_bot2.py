@@ -22,12 +22,12 @@ reddit = praw.Reddit(client_id=creds["client_id"],
 
 tmdb_key = "XXX"
 
-# variables, one to track how many comments are made and an arbitrary limit on guess
+# variables, one to track how many comments are made and an arbitrary limit on posts per subreddit
 
 entry_number = 0
 postspersub = 10
 
-# this loop runs once every 20 seconds
+# this loop runs once every 20 minutes
 
 while True:
 
